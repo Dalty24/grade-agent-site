@@ -51,3 +51,8 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
 .box{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 24px;margin:20px 0}
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:48px}.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:1fr}}
 @media(max-width:600px){.nav ul li:not(:last-child){display:none}.g4,.g2{grid-template-columns:1fr}section{padding:50px 0}.badge{flex:1}}
+
+.btn-try{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--teal));color:#0b0d14;font-weight:700;font-size:1rem;min-width:190px;box-shadow:0 8px 24px rgba(62,230,196,.25)}
+.btn-try:hover{text-decoration:none;filter:brightness(1.08)}
+.nav ul li.nav-try a{color:var(--teal);font-weight:600}
+@media(max-width:720px){.nav ul li.nav-try{display:list-item!important}.btn-try{flex:1 1 100%}}
